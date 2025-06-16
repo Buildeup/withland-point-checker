@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env
+
+# Credentials
+credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
