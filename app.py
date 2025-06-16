@@ -72,6 +72,6 @@ else:
                 "포인트": "정보 없음"
             })
 
-    st.success(f"✅ {selected_resort} / {selected_room} [{selected_season}] {len(stay_dates)}박: 총 {total_points:,} 포인트")
+    st.success(f" {selected_resort} / {selected_room} [{selected_season}] {len(stay_dates)}박: 총 {total_points:,} 포인트")
     st.markdown("### 🗓️ 날짜별 포인트 내역")
     st.dataframe(pd.DataFrame(daily_points), hide_index=True)
