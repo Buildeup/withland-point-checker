@@ -4,7 +4,7 @@ from gsheet_utils import load_data_from_gsheet
 
 st.set_page_config(page_title="위드랜드 포인트 계산기", page_icon="🏝️")
 
-st.title("🏝️ 위드랜드 포인트 계산기")
+st.title("위드랜드 포인트 계산기")
 st.markdown(
     """
     리조트, 객실, 시즌, 날짜를 선택하면 해당 기간의 총 포인트와 날짜별 포인트 내역을 확인할 수 있습니다.
