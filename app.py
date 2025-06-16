@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from gsheet_utils import load_data_from_gsheet
 
-st.set_page_config(page_title="위드랜드 포인트 계산기", page_icon="🏝️")
+st.set_page_config(page_title="위드랜드 포인트 계산기", page_icon="🐶")
 
 st.title("위드랜드 포인트 계산기")
 st.markdown(
